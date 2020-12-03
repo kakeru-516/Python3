@@ -1,0 +1,13 @@
+sudo apt-get install netatalk
+/etc/netatalk/afp.confを以下のように編集
+
+=====================
+[Global]
+
+[Homes]
+basedir regex = /home
+=====================
+
+[Homes] とその次の行を非コメント化、/home と書く
+
+afp://IpAddressで接続できる
