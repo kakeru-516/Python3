@@ -1,0 +1,12 @@
+cd /usr/bin
+ls -l *py
+# pythonからのシンボリックリンクがpython2になっていることを確認
+
+sudo unlink python
+# 上記のコマンドでリンクを削除
+
+sudo ln -s python3 python
+# 上記のコマンドでpython3へのシンボリックリンクを作成する
+
+python --version
+# バージョンを確認するとPython3.7.3が確認できる

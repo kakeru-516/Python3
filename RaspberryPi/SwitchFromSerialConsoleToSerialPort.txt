@@ -1,0 +1,8 @@
+sudo raspi-config
+1. 5 Interfacing Optins->[Select]
+2. P6 Serial -> [Select]
+3. "Would you like a login shell to be accessible over serial?" -> [No]
+4. "Would you like the serial port hardware to be enable" -> [Yes]
+5. The serial Login shell is disable
+   The serial interface is enable -> [OK] -> [Finish]
+6. "Would you like to reboot now?" -> [No]
