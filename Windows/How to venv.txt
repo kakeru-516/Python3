@@ -1,0 +1,6 @@
+# 仮想環境の作成コマンド
+python -m venv hoge
+# 仮想環境の有効化
+hoge\Scripts\activate.bat
+# 仮想環境の無効化
+hoge\Scripts\deactivate.bat
